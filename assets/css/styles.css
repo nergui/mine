@@ -1,0 +1,53 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#top {
+  background: url("../../assets/img/banner9.png") top / cover no-repeat;
+  height: 100vh;
+  width: auto;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+  #top {
+    background: url("../../assets/img/banner8.png") top / contain no-repeat;
+    margin-bottom: -350px;
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  #intro-p {
+    padding: 10px;
+    background: rgba(0,0,0,0.51);
+  }
+}
+
+@media (max-width: 600px) {
+  #intro-p {
+    margin-top: -40px;
+  }
+}
+
+#animated {
+  background: rgba(255,255,255,0);
+  border-style: none;
+  margin-top: 0px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Alata, sans-serif;
+  padding-top: 100px;
+  padding-right: 400px;
+  padding-left: 0px;
+}
+
+@media (max-width: 500px) {
+  #animated {
+    padding-right: 200px;
+    padding-top: 25px;
+  }
+}
+
